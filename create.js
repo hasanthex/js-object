@@ -1,3 +1,4 @@
+// Different ways of creating an object.
 // Create Object, Using the Object() constructor:
 var obj_1 = new Object();
 
