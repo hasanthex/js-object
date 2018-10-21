@@ -1,14 +1,14 @@
 // Different ways of creating an object.
-// Create Object, Using the Object() constructor:
+// 1. Create Object, Using the Object() constructor:
 var obj_1 = new Object();
 
-// Create Object, Using Object.create() method:
+// 2. Create Object, Using Object.create() method:
 var obj_2 = Object.create(null);
 
-// Create Object, Using the bracket's syntax
+// 3. Create Object, Using the bracket's syntax
 var obj_3 = {};
 
-// Create Object, Using a function constructor
+// 4. Create Object, Using a function constructor
 var obj_4 = function(){}
 
 
