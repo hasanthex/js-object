@@ -1,4 +1,4 @@
-var factoryPattern = function(name, email, contact){  
+var factoryPattern = function(name, email, contact){
   // empty object
   var obj = {};
   obj.name = name;
@@ -6,11 +6,10 @@ var factoryPattern = function(name, email, contact){
   obj.contact = contact;
   obj.show = function(){
     console.log(obj.name+' - '+obj.email+' - '+obj.contact);
-  }
+  } 
   return obj;
 }
-
-var fact1 = new factoryPattern('muhammad', 'email@to.com', '123456');
-var fact2 = new factoryPattern('hasan', 'hasan@email.com', '987654');
+var fact1 = factoryPattern('muhammad', 'email@to.com', '123456');
+var fact2 = factoryPattern('hasan', 'hasan@email.com', '987654');
 fact1.show();
 fact2.show();
