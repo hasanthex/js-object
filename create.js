@@ -11,7 +11,6 @@ var obj_3 = {};
 // 4. Create Object, Using a function constructor
 var obj_4 = function(){}
 
-
 // Create Object, Using the function constructor + prototype: 
 var obj_5 = function(){}
 obj_5.prototype.name  = 'Muhammad hasan';
